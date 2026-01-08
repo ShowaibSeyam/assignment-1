@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.font-inter{
+    font-family: 'Inter', sans-serif;
+}
+.logo{
+    margin:20px 120px;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu ul{
+    display: flex;
+    list-style: none;
+    gap: 32px;
+}
+.menu li a{
+    color:#000000;
+    text-decoration: none;
+}
+
+
+.menu-button{
+    
+    margin: 20px 120px 20px 0;
+}
+
+
+
+.btn{
+    background-color: #469165;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    padding: 12.5px 16px;
+    cursor: pointer;
+    font-size: 16px;
+
+}
+.btn:hover{
+    background-color: #074a23;
+}
