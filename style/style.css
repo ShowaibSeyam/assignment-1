@@ -41,8 +41,90 @@ nav{
     padding: 12.5px 16px;
     cursor: pointer;
     font-size: 16px;
+    display: inline-flex;
+    align-items:center;
+    gap:8px;
 
 }
 .btn:hover{
     background-color: #074a23;
 }
+
+.title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    min-height: 80vh;
+    justify-content: center;
+    padding:20px;
+    background: url(../assets/hero-bg.png);
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+.btun{
+    display: inline-flex;
+    align-items: center;
+    padding: 6px 16px;
+    background-color: white;
+    color:#469165;
+    border: 1px solid rgb(118, 111, 111);
+    border-radius: 50px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    margin-bottom: 16px;
+
+}
+
+
+.btun:hover{
+    color:rgb(66, 108, 92);
+}
+.btun .dot{
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    background-color: #4caf50;
+    border-radius: 50%;
+    margin-right: 8px;
+    box-shadow: 0 0 0 rgba(62, 123, 84, 0.4);
+    position: relative;
+
+}
+
+.title h1{
+    font-size:72px;
+    font-weight: bold;
+    margin-bottom:16px ;
+    line-height: 1.2;
+}
+.title p{
+    max-width: 700px;
+    margin-bottom: 32px;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.title .button-sec{
+    display:flex;
+    justify-content: space-between;
+    gap: 16px;
+}
+.button-sec .another-btn{
+    background-color: transparent;
+    border:1px solid white;
+    color: white;
+    
+    border-radius: 5px;
+    padding: 12px 16px;
+    font-size: 16px;
+    cursor:pointer;
+
+
+}
+.another-btn:hover{
+    color: wheat;
+}
+
