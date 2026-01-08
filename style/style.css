@@ -7,6 +7,8 @@
     font-family: 'Inter', sans-serif;
 }
 
+
+
 /* header section */
 .logo{
     margin:20px 120px;
@@ -130,6 +132,85 @@ nav{
 .another-btn:hover{
     color: wheat;
 }
+
+.knowledge-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 80px 120px;
+    gap: 80px;
+}
+
+.knowledge-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 120px;
+    gap: 100px;
+}
+
+.knowledge-container .knowledge-image{
+    flex-shrink: 0;
+    max-width: 450px;
+    width: 100%;
+}
+
+.knowledge-container .knowledge-image img{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.knowledge-text{
+    flex: 1;
+    max-width: 600px;
+}
+
+.solution-tag {
+    color: #469165;
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 16px;
+    text-transform: uppercase;
+}
+
+.knowledge-text h2{
+    font-size: 48px;
+    line-height: 1.1;
+    font-weight: 800;
+    color:#001931;
+    margin-bottom: 16px;
+}
+
+.knowledge-text p{
+    font-size: 18px;
+    line-height: 1.6;
+    color: #627382;
+    margin-bottom: 40px;
+}
+
+.knowledge-text ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.knowledge-text li {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 16px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #0f172a;
+}
+
+.knowledge-text li img {
+    width: 24px;
+    height: 24px;
+    flex-shrink: 0;
+}
+
 
 
 /* footer section */
