@@ -6,6 +6,8 @@
 .font-inter{
     font-family: 'Inter', sans-serif;
 }
+
+/* header section */
 .logo{
     margin:20px 120px;
 }
@@ -80,7 +82,8 @@ nav{
 
 
 .btun:hover{
-    color:rgb(66, 108, 92);
+    background-color:rgb(205, 212, 209);
+    
 }
 .btun .dot{
     display: inline-block;
@@ -128,3 +131,73 @@ nav{
     color: wheat;
 }
 
+
+/* footer section */
+.footer-container{
+    background-color: #0a1929;
+    color: #ffffff;
+    padding: 40px 120px;
+}
+
+
+.footer-container nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 60px;
+}
+
+.footer-container .logo{
+    margin: 0;
+}
+
+.logo img{
+    height: 50px;
+    display: block;
+}
+
+
+.social {
+    text-align: right;
+    
+}
+
+.social h2{
+    margin: 0 0 12px 0;
+    font-size: 30px;
+    font-weight: 500;
+    color: #ffffff;
+}
+
+.social div{
+    display: flex;
+    gap: 20px;
+    justify-content: flex-end;
+   
+}
+
+.social a{
+    color: #ffffff;
+    font-size: 20px;
+    text-decoration: none;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
+}
+
+.social a:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.footer-container p {
+    font-size: 13px;
+    color: #8892b0;
+    margin: 0;
+    text-align: center;
+    padding-top: 20px;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
